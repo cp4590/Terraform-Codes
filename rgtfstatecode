@@ -1,0 +1,46 @@
+{
+  "version": 4,
+  "terraform_version": "1.7.4",
+  "serial": 2,
+  "lineage": "07833c6e-55a3-0198-3f62-d40530de9a1a",
+  "outputs": {},
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "azurerm_resource_group",
+      "name": "rgs",
+      "provider": "provider[\"registry.terraform.io/hashicorp/azurerm\"]",
+      "instances": [
+        {
+          "index_key": "rg1",
+          "schema_version": 0,
+          "attributes": {
+            "id": "/subscriptions/21f2456b-e023-4fff-8f50-b6e1ebe99db4/resourceGroups/cp1rg",
+            "location": "eastus",
+            "managed_by": "",
+            "name": "cp1rg",
+            "tags": null,
+            "timeouts": null
+          },
+          "sensitive_attributes": [],
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo1NDAwMDAwMDAwMDAwLCJkZWxldGUiOjU0MDAwMDAwMDAwMDAsInJlYWQiOjMwMDAwMDAwMDAwMCwidXBkYXRlIjo1NDAwMDAwMDAwMDAwfX0="
+        },
+        {
+          "index_key": "rg2",
+          "schema_version": 0,
+          "attributes": {
+            "id": "/subscriptions/21f2456b-e023-4fff-8f50-b6e1ebe99db4/resourceGroups/cp2rg",
+            "location": "eastus",
+            "managed_by": "",
+            "name": "cp2rg",
+            "tags": null,
+            "timeouts": null
+          },
+          "sensitive_attributes": [],
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo1NDAwMDAwMDAwMDAwLCJkZWxldGUiOjU0MDAwMDAwMDAwMDAsInJlYWQiOjMwMDAwMDAwMDAwMCwidXBkYXRlIjo1NDAwMDAwMDAwMDAwfX0="
+        }
+      ]
+    }
+  ],
+  "check_results": null
+}

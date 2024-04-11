@@ -1,0 +1,43 @@
+{
+  "version": 4,
+  "terraform_version": "1.7.4",
+  "serial": 2,
+  "lineage": "cc1aa992-77b5-5913-a5ed-bf534923d467",
+  "outputs": {},
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "azurerm_virtual_network",
+      "name": "Vnet",
+      "provider": "provider[\"registry.terraform.io/hashicorp/azurerm\"]",
+      "instances": [
+        {
+          "index_key": "vnet1",
+          "schema_version": 0,
+          "attributes": {
+            "address_space": [
+              "10.0.0.0/16"
+            ],
+            "bgp_community": "",
+            "ddos_protection_plan": [],
+            "dns_servers": [],
+            "edge_zone": "",
+            "encryption": [],
+            "flow_timeout_in_minutes": 0,
+            "guid": "2cefeb01-7f93-41d2-9eb2-ba178ce6647b",
+            "id": "/subscriptions/21f2456b-e023-4fff-8f50-b6e1ebe99db4/resourceGroups/cp1rg/providers/Microsoft.Network/virtualNetworks/cpvnet1",
+            "location": "eastus",
+            "name": "cpvnet1",
+            "resource_group_name": "cp1rg",
+            "subnet": [],
+            "tags": null,
+            "timeouts": null
+          },
+          "sensitive_attributes": [],
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxODAwMDAwMDAwMDAwLCJkZWxldGUiOjE4MDAwMDAwMDAwMDAsInJlYWQiOjMwMDAwMDAwMDAwMCwidXBkYXRlIjoxODAwMDAwMDAwMDAwfX0="
+        }
+      ]
+    }
+  ],
+  "check_results": null
+}
