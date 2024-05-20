@@ -1,0 +1,22 @@
+trigger: none
+pool: Azure Pipeline
+stages: 
+  - stage: init
+    displayName: init ho rha hai
+    jobs:
+      - job: init 
+        steps:
+        - task: TerraformInstaller@1
+          inputs:
+            terraformVersion: 'latest'
+        - task: TerraformTaskV4@4
+          inputs:
+            provider: 'azurerm'
+            command: 'init'
+            backendServiceArm: 'sonikapipelines'
+            backendAzureRmResourceGroupName: 'cprg2'
+            backendAzureRmStorageAccountName: 'cpstoragefor'
+            backendAzureRmContainerName: 'cpcontainer'
+            backendAzureRmKey: 'cppipelinetfstate'
+
+  
